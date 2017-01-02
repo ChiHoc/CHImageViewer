@@ -7,20 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "CHImageViewer.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet CHImageViewer *imageViewer;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"image" ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    [self.imageViewer setImage:image];
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

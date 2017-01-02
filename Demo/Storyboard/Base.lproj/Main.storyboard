@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,22 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-UF-8Gn">
-                                <rect key="frame" x="131" y="323" width="113" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBF-BF-Uqu" customClass="CHImageViewer">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6iJ-UF-8Gn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="juk-Wa-0GB"/>
-                            <constraint firstItem="6iJ-UF-8Gn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xMf-7o-Xfv"/>
+                            <constraint firstAttribute="trailing" secondItem="OBF-BF-Uqu" secondAttribute="trailing" id="4Ri-h2-uaK"/>
+                            <constraint firstAttribute="topMargin" secondItem="OBF-BF-Uqu" secondAttribute="top" id="6fW-nf-ezl"/>
+                            <constraint firstItem="OBF-BF-Uqu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lfa-w7-4rY"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="OBF-BF-Uqu" secondAttribute="bottom" id="uJt-DU-OwC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageViewer" destination="OBF-BF-Uqu" id="Yhd-h5-Pv0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>
