@@ -7,11 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "CHImageViewer.h"
 
 @interface ViewController ()
-
-@property (strong, nonatomic) IBOutlet CHImageViewer *imageViewer;
 
 @end
 
@@ -23,7 +20,6 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"image" ofType:@"png"];
     UIImage *image = [UIImage imageWithContentsOfFile:path];
-    [self.imageViewer setImage:image];
 }
 
 

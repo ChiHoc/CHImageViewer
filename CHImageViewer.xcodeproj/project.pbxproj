@@ -13,9 +13,25 @@
 		A10AC3E51E1021A4001898C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AC3DA1E1021A4001898C8 /* Main.storyboard */; };
 		A10AC3E71E1021A4001898C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AC3DE1E1021A4001898C8 /* main.m */; };
 		A10AC3E81E1021A4001898C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AC3E11E1021A4001898C8 /* ViewController.m */; };
-		A1C1BC0C1E19398C002ECD13 /* CHImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C1BC0B1E19398C002ECD13 /* CHImageViewer.m */; };
+		A183E4E91EE1C0C9000FE4F4 /* CHImageBrowseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4E81EE1C0C9000FE4F4 /* CHImageBrowseItem.m */; };
+		A183E4EC1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4EB1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m */; };
+		A183E4EF1EE1C218000FE4F4 /* CHImageScrollViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4EE1EE1C218000FE4F4 /* CHImageScrollViewHelper.m */; };
+		A183E4F21EE1C6BC000FE4F4 /* CHUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4F11EE1C6BC000FE4F4 /* CHUIUtil.m */; };
+		A183E4F51EE1C77E000FE4F4 /* CHDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4F41EE1C77E000FE4F4 /* CHDeviceInfo.m */; };
+		A183E5051EE3DE78000FE4F4 /* CHImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E5041EE3DE78000FE4F4 /* CHImageViewerTests.m */; };
 		A1C1BC0E1E193FE2002ECD13 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C1BC0D1E193FE2002ECD13 /* image.png */; };
+		A1DD5E411EB8CA97000071B0 /* CHUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD5E401EB8CA97000071B0 /* CHUIScrollView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A183E5071EE3DE78000FE4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1CA68A21E0E468400EA7D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1CA68A91E0E468400EA7D7C;
+			remoteInfo = CHImageViewer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A10AC3D31E1021A4001898C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,13 +43,33 @@
 		A10AC3DE1E1021A4001898C8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A10AC3E01E1021A4001898C8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A10AC3E11E1021A4001898C8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1C1BC0A1E19398C002ECD13 /* CHImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageViewer.h; sourceTree = "<group>"; };
-		A1C1BC0B1E19398C002ECD13 /* CHImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageViewer.m; sourceTree = "<group>"; };
+		A183E4E71EE1C0C9000FE4F4 /* CHImageBrowseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageBrowseItem.h; sourceTree = "<group>"; };
+		A183E4E81EE1C0C9000FE4F4 /* CHImageBrowseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageBrowseItem.m; sourceTree = "<group>"; };
+		A183E4EA1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMultiImageBrowseViewContainer.h; sourceTree = "<group>"; };
+		A183E4EB1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMultiImageBrowseViewContainer.m; sourceTree = "<group>"; };
+		A183E4ED1EE1C218000FE4F4 /* CHImageScrollViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageScrollViewHelper.h; sourceTree = "<group>"; };
+		A183E4EE1EE1C218000FE4F4 /* CHImageScrollViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageScrollViewHelper.m; sourceTree = "<group>"; };
+		A183E4F01EE1C6BB000FE4F4 /* CHUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUIUtil.h; sourceTree = "<group>"; };
+		A183E4F11EE1C6BC000FE4F4 /* CHUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUIUtil.m; sourceTree = "<group>"; };
+		A183E4F31EE1C77E000FE4F4 /* CHDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDeviceInfo.h; sourceTree = "<group>"; };
+		A183E4F41EE1C77E000FE4F4 /* CHDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDeviceInfo.m; sourceTree = "<group>"; };
+		A183E5021EE3DE78000FE4F4 /* CHImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A183E5041EE3DE78000FE4F4 /* CHImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHImageViewerTests.m; sourceTree = "<group>"; };
+		A183E5061EE3DE78000FE4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C1BC0D1E193FE2002ECD13 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		A1CA68AA1E0E468400EA7D7C /* CHImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD5E3F1EB8CA97000071B0 /* CHUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUIScrollView.h; sourceTree = "<group>"; };
+		A1DD5E401EB8CA97000071B0 /* CHUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUIScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A183E4FF1EE3DE78000FE4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1CA68A71E0E468400EA7D7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,8 +83,18 @@
 		A10AC3D11E1021A4001898C8 /* CHImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				A1C1BC0A1E19398C002ECD13 /* CHImageViewer.h */,
-				A1C1BC0B1E19398C002ECD13 /* CHImageViewer.m */,
+				A183E4E71EE1C0C9000FE4F4 /* CHImageBrowseItem.h */,
+				A183E4E81EE1C0C9000FE4F4 /* CHImageBrowseItem.m */,
+				A183E4EA1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.h */,
+				A183E4EB1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m */,
+				A1DD5E3F1EB8CA97000071B0 /* CHUIScrollView.h */,
+				A1DD5E401EB8CA97000071B0 /* CHUIScrollView.m */,
+				A183E4ED1EE1C218000FE4F4 /* CHImageScrollViewHelper.h */,
+				A183E4EE1EE1C218000FE4F4 /* CHImageScrollViewHelper.m */,
+				A183E4F01EE1C6BB000FE4F4 /* CHUIUtil.h */,
+				A183E4F11EE1C6BC000FE4F4 /* CHUIUtil.m */,
+				A183E4F31EE1C77E000FE4F4 /* CHDeviceInfo.h */,
+				A183E4F41EE1C77E000FE4F4 /* CHDeviceInfo.m */,
 			);
 			path = CHImageViewer;
 			sourceTree = "<group>";
@@ -102,11 +148,21 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		A183E5031EE3DE78000FE4F4 /* CHImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A183E5041EE3DE78000FE4F4 /* CHImageViewerTests.m */,
+				A183E5061EE3DE78000FE4F4 /* Info.plist */,
+			);
+			path = CHImageViewerTests;
+			sourceTree = "<group>";
+		};
 		A1CA68A11E0E468400EA7D7C = {
 			isa = PBXGroup;
 			children = (
 				A10AC3D11E1021A4001898C8 /* CHImageViewer */,
 				A10AC3D21E1021A4001898C8 /* Demo */,
+				A183E5031EE3DE78000FE4F4 /* CHImageViewerTests */,
 				A1CA68AB1E0E468400EA7D7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				A1CA68AA1E0E468400EA7D7C /* CHImageViewer.app */,
+				A183E5021EE3DE78000FE4F4 /* CHImageViewerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +179,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A183E5011EE3DE78000FE4F4 /* CHImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A183E5091EE3DE78000FE4F4 /* Build configuration list for PBXNativeTarget "CHImageViewerTests" */;
+			buildPhases = (
+				A183E4FE1EE3DE78000FE4F4 /* Sources */,
+				A183E4FF1EE3DE78000FE4F4 /* Frameworks */,
+				A183E5001EE3DE78000FE4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A183E5081EE3DE78000FE4F4 /* PBXTargetDependency */,
+			);
+			name = CHImageViewerTests;
+			productName = CHImageViewerTests;
+			productReference = A183E5021EE3DE78000FE4F4 /* CHImageViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A1CA68A91E0E468400EA7D7C /* CHImageViewer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1CA68C11E0E468400EA7D7C /* Build configuration list for PBXNativeTarget "CHImageViewer" */;
@@ -148,6 +223,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Chiho;
 				TargetAttributes = {
+					A183E5011EE3DE78000FE4F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1CA68A91E0E468400EA7D7C;
+					};
 					A1CA68A91E0E468400EA7D7C = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -168,11 +248,19 @@
 			projectRoot = "";
 			targets = (
 				A1CA68A91E0E468400EA7D7C /* CHImageViewer */,
+				A183E5011EE3DE78000FE4F4 /* CHImageViewerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A183E5001EE3DE78000FE4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1CA68A81E0E468400EA7D7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,18 +275,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A183E4FE1EE3DE78000FE4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A183E5051EE3DE78000FE4F4 /* CHImageViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1CA68A61E0E468400EA7D7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A10AC3E81E1021A4001898C8 /* ViewController.m in Sources */,
+				A183E4EC1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m in Sources */,
+				A183E4F51EE1C77E000FE4F4 /* CHDeviceInfo.m in Sources */,
+				A1DD5E411EB8CA97000071B0 /* CHUIScrollView.m in Sources */,
 				A10AC3E71E1021A4001898C8 /* main.m in Sources */,
-				A1C1BC0C1E19398C002ECD13 /* CHImageViewer.m in Sources */,
+				A183E4F21EE1C6BC000FE4F4 /* CHUIUtil.m in Sources */,
 				A10AC3E31E1021A4001898C8 /* AppDelegate.m in Sources */,
+				A183E4EF1EE1C218000FE4F4 /* CHImageScrollViewHelper.m in Sources */,
+				A183E4E91EE1C0C9000FE4F4 /* CHImageBrowseItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A183E5081EE3DE78000FE4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1CA68A91E0E468400EA7D7C /* CHImageViewer */;
+			targetProxy = A183E5071EE3DE78000FE4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A10AC3D81E1021A4001898C8 /* LaunchScreen.storyboard */ = {
@@ -220,6 +329,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A183E50A1EE3DE78000FE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CHImageViewerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiho.CHImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHImageViewer.app/CHImageViewer";
+			};
+			name = Debug;
+		};
+		A183E50B1EE3DE78000FE4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CHImageViewerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiho.CHImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHImageViewer.app/CHImageViewer";
+			};
+			name = Release;
+		};
 		A1CA68BF1E0E468400EA7D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Demo/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chiho.CHImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Demo/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chiho.CHImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,6 +474,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A183E5091EE3DE78000FE4F4 /* Build configuration list for PBXNativeTarget "CHImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A183E50A1EE3DE78000FE4F4 /* Debug */,
+				A183E50B1EE3DE78000FE4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A1CA68A51E0E468400EA7D7C /* Build configuration list for PBXProject "CHImageViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
