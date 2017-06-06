@@ -45,7 +45,7 @@
 + (BOOL)isiPadSplitViewModeNow
 {
     if (![CHDeviceInfo isiPadUniversal] || ![CHDeviceInfo isiOS9plus]) {
-        return false;
+        return NO;
     }
     id<UIApplicationDelegate> delegate = [[UIApplication sharedApplication] delegate];
     return !CGRectEqualToRect(delegate.window.frame,  [UIScreen mainScreen].bounds);

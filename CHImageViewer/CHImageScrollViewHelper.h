@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol MMImageScrollViewHelperDelegate <NSObject>
+@protocol CHImageScrollViewHelperDelegate <NSObject>
 
 @optional
 @property (copy, nonatomic) NSArray *gestureRecognizers;
@@ -37,7 +37,7 @@
 @property (assign, nonatomic) BOOL noDoubleTaps;
 @property (assign, nonatomic) BOOL dontSupportVerticalLongImage;
 @property (assign, nonatomic) BOOL dontSupportHorizontalLongImage;
-@property (weak, nonatomic) id <MMImageScrollViewHelperDelegate> m_delegate;
+@property (weak, nonatomic) id <CHImageScrollViewHelperDelegate> m_delegate;
 
 - (void)initHelper:(CGSize)arg1 orientation:(UIDeviceOrientation)orientation;
 - (void)initHelper:(CGSize)arg1 orientation:(UIDeviceOrientation)orientation containSize:(CGSize)containSize;

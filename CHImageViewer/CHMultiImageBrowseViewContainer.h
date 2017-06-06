@@ -19,7 +19,7 @@
 @property (strong, nonatomic) CHImageBrowseItem *imageBrowseItem;
 @property (assign, nonatomic) CGRect originImageRectInScreen;
 @property (assign, nonatomic) CGSize initalContentSize;
-@property (strong, nonatomic) UIImage *m_image;
+@property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) UIImageView *m_oBackGroundImageView;
 @property (assign, nonatomic) BOOL isAnimating;
 @property (assign, nonatomic) BOOL isShowing;

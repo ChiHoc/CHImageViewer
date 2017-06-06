@@ -16,5 +16,4 @@
 @property (strong, nonatomic) NSString *imgUrl;
 @property (strong, nonatomic) NSData *imgData;
 
-
 @end

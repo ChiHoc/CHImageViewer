@@ -13,6 +13,10 @@
 		A10AC3E51E1021A4001898C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AC3DA1E1021A4001898C8 /* Main.storyboard */; };
 		A10AC3E71E1021A4001898C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AC3DE1E1021A4001898C8 /* main.m */; };
 		A10AC3E81E1021A4001898C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AC3E11E1021A4001898C8 /* ViewController.m */; };
+		A13258EE1EE553840025C610 /* CHAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A13258ED1EE553840025C610 /* CHAppUtil.m */; };
+		A13258F11EE5622F0025C610 /* CHBizUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A13258F01EE5622F0025C610 /* CHBizUtil.m */; };
+		A13258F41EE649830025C610 /* CHBaseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A13258F31EE649830025C610 /* CHBaseFile.m */; };
+		A13258F71EE6524B0025C610 /* CUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A13258F61EE6524B0025C610 /* CUtility.m */; };
 		A183E4E91EE1C0C9000FE4F4 /* CHImageBrowseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4E81EE1C0C9000FE4F4 /* CHImageBrowseItem.m */; };
 		A183E4EC1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4EB1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m */; };
 		A183E4EF1EE1C218000FE4F4 /* CHImageScrollViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A183E4EE1EE1C218000FE4F4 /* CHImageScrollViewHelper.m */; };
@@ -43,6 +47,14 @@
 		A10AC3DE1E1021A4001898C8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A10AC3E01E1021A4001898C8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A10AC3E11E1021A4001898C8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13258EC1EE553840025C610 /* CHAppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAppUtil.h; sourceTree = "<group>"; };
+		A13258ED1EE553840025C610 /* CHAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAppUtil.m; sourceTree = "<group>"; };
+		A13258EF1EE5622F0025C610 /* CHBizUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBizUtil.h; sourceTree = "<group>"; };
+		A13258F01EE5622F0025C610 /* CHBizUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBizUtil.m; sourceTree = "<group>"; };
+		A13258F21EE649830025C610 /* CHBaseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBaseFile.h; sourceTree = "<group>"; };
+		A13258F31EE649830025C610 /* CHBaseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBaseFile.m; sourceTree = "<group>"; };
+		A13258F51EE6524B0025C610 /* CUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUtility.h; sourceTree = "<group>"; };
+		A13258F61EE6524B0025C610 /* CUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUtility.m; sourceTree = "<group>"; };
 		A183E4E71EE1C0C9000FE4F4 /* CHImageBrowseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImageBrowseItem.h; sourceTree = "<group>"; };
 		A183E4E81EE1C0C9000FE4F4 /* CHImageBrowseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImageBrowseItem.m; sourceTree = "<group>"; };
 		A183E4EA1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMultiImageBrowseViewContainer.h; sourceTree = "<group>"; };
@@ -95,6 +107,14 @@
 				A183E4F11EE1C6BC000FE4F4 /* CHUIUtil.m */,
 				A183E4F31EE1C77E000FE4F4 /* CHDeviceInfo.h */,
 				A183E4F41EE1C77E000FE4F4 /* CHDeviceInfo.m */,
+				A13258EC1EE553840025C610 /* CHAppUtil.h */,
+				A13258ED1EE553840025C610 /* CHAppUtil.m */,
+				A13258EF1EE5622F0025C610 /* CHBizUtil.h */,
+				A13258F01EE5622F0025C610 /* CHBizUtil.m */,
+				A13258F21EE649830025C610 /* CHBaseFile.h */,
+				A13258F31EE649830025C610 /* CHBaseFile.m */,
+				A13258F51EE6524B0025C610 /* CUtility.h */,
+				A13258F61EE6524B0025C610 /* CUtility.m */,
 			);
 			path = CHImageViewer;
 			sourceTree = "<group>";
@@ -288,11 +308,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10AC3E81E1021A4001898C8 /* ViewController.m in Sources */,
+				A13258F71EE6524B0025C610 /* CUtility.m in Sources */,
 				A183E4EC1EE1C12C000FE4F4 /* CHMultiImageBrowseViewContainer.m in Sources */,
 				A183E4F51EE1C77E000FE4F4 /* CHDeviceInfo.m in Sources */,
 				A1DD5E411EB8CA97000071B0 /* CHUIScrollView.m in Sources */,
+				A13258EE1EE553840025C610 /* CHAppUtil.m in Sources */,
+				A13258F41EE649830025C610 /* CHBaseFile.m in Sources */,
 				A10AC3E71E1021A4001898C8 /* main.m in Sources */,
 				A183E4F21EE1C6BC000FE4F4 /* CHUIUtil.m in Sources */,
+				A13258F11EE5622F0025C610 /* CHBizUtil.m in Sources */,
 				A10AC3E31E1021A4001898C8 /* AppDelegate.m in Sources */,
 				A183E4EF1EE1C218000FE4F4 /* CHImageScrollViewHelper.m in Sources */,
 				A183E4E91EE1C0C9000FE4F4 /* CHImageBrowseItem.m in Sources */,
@@ -481,6 +505,7 @@
 				A183E50B1EE3DE78000FE4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1CA68A51E0E468400EA7D7C /* Build configuration list for PBXProject "CHImageViewer" */ = {
 			isa = XCConfigurationList;
